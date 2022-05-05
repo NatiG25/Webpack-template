@@ -1,8 +1,4 @@
 import './style.css';
-
-const component = () => {
-  const element = document.querySelector('.test');
-  element.innerHTML = 'Welcome';
-};
+import component from "./modules/component.js";
 
 window.onload = component();
